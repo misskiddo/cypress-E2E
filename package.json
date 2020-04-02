@@ -1,0 +1,29 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "end to end testing with cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misskiddo/cypress-E2E.git"
+  },
+  "keywords": [
+    "cypress",
+    "e2e"
+  ],
+  "author": "toni cabrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misskiddo/cypress-E2E/issues"
+  },
+  "homepage": "https://github.com/misskiddo/cypress-E2E#readme",
+  "dependencies": {
+    "cypress": "^4.3.0",
+    "cypress-xpath": "^1.4.0",
+    "prettier": "^2.0.2"
+  }
+}
